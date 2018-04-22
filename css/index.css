@@ -1,16 +1,4 @@
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-* {
-    -webkit-transition: opacity 0.1s ease-in-out;
-    -moz-transition: opacity 0.1s ease-in-out;
-    -o-transition: opacity 0.1s ease-in-out;
-    -ms-transition: opacity 0.1s ease-in-out;
-    transition: opacity 0.1s ease-in-out;
-}
 
 body, html {
     overflow-x: hidden;
@@ -150,47 +138,4 @@ label {
 
 #YourUp, #YourDown, #EnemyUp, #EnemyDown, #YourUp, #YourDown, #EnemyUp, #EnemyDown {
    opacity: 0.5;
-}
-
-#reset {
-   display: block;
-   font-size: 3em;
-   line-height: 1.3em;
-   text-align: center;
-   height: 65px;
-   width: 65px;
-   position: fixed;
-   bottom: 0px;
-   right: 0px;
-   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-   color: #333;
-   text-shadow: 0 1px 0 #EEE;
-   opacity: 0.2;
-   background-color: #EEE;
-
-   -webkit-border-top-left-radius: 30px;
-   -moz-border-radius-topleft: 30px;
-   border-top-left-radius: 30px;
-}
-
-#commander {
-   display: block;
-   height: 65px;
-   width: 65px;
-   position: fixed;
-   bottom: 0px;
-   left: 0px;
-
-   font-size: 3em;
-   line-height: 1.3em;
-   text-align: center;
-   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-   color: #333;
-   text-shadow: 0 1px 0 #EEE;
-   opacity: 0.2;
-   background-color: #EEE;
-
-   -webkit-border-top-right-radius: 30px;
-   -moz-border-radius-topright: 30px;
-   border-top-right-radius: 30px;
 }

@@ -35,6 +35,8 @@
    font-size: 2.5em;
    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
    text-align: center;
+   width:200%;
+   height:200%;
 }
 
 .player {

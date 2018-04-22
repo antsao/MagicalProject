@@ -8,16 +8,21 @@ var player7Life;
 var player8life;
 
 function addClickPlayer1() {
-  var amount = $("#Player1").text();
-  $("#player1").html("" + amount + player1Life);
+  player1Life += parseInt($("#player1Amount").text());
+  $("#player1LifeTotal").html("" + player1Life);
+}
+
+function minusClickPlayer1() {
+  player1Life -= parseInt($("#player1Amount").text());
+  $("#player1LifeTotal").html("" + player1Life);
 }
 
 function main() {
   var islandImageUrl = "./img/island.png";
   var forestImageUrl = "./img/forest.png";
 
-  var player1Life = 20;
-  var player2Life = 20;
+  player1Life = 20;
+  player2Life = 20;
 
   $("#player1").css("background-image", "url(" + islandImageUrl + ")");
   $("#player1").css("background-size", "cover");

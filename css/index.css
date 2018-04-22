@@ -1,0 +1,10 @@
+body, html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.col {
+  background-image: url(../img/island.png);
+  background-size: cover;
+  overflow: hidden;
+}

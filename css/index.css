@@ -76,19 +76,6 @@ label {
 
 }
 
-#YourUp {
-  display: block;
-   text-align: center;
-   border-bottom: 1px solid #999;
-   padding: 10px 0;
-}
-
-#YourDown {
-  display: block;
-   text-align: center;
-   border-top: 1px solid #999;
-   padding: 10px 0;
-}
 
 #EnemyLife {
    opacity: 0.9;
@@ -118,21 +105,6 @@ label {
 
 }
 
-#EnemyUp {
-  display: block;
-   text-align: center;
-   border-bottom: 1px solid #999;
-   padding: 10px 0;
-
-}
-
-#EnemyDown {
-  display: block;
-   text-align: center;
-   border-top: 1px solid #999;
-   padding: 10px 0;
-
-}
 
 #YourUp, #YourDown, #EnemyUp, #EnemyDown, #YourUp, #YourDown, #EnemyUp, #EnemyDown {
    opacity: 0.5;

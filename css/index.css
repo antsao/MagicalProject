@@ -35,3 +35,12 @@ body, html {
   text-align: center;
   color: white;
 }
+
+.lifeBar {
+  position: center;
+}
+
+textarea {
+  resize: none;
+  position: center;
+}

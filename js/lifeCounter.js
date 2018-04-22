@@ -8,7 +8,8 @@ var player7Life;
 var player8life;
 
 function addClickPlayer1() {
-  $("#player1").html("" + ++player1Life);
+  var amount = $("#Player1").text();
+  $("#player1").html("" + amount + player1Life);
 }
 
 function main() {

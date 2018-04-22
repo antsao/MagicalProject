@@ -3,13 +3,38 @@ body, html {
     overflow-y: hidden;
 }
 
-.col {
-  w-webkit-box-flex: 0;
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-auto {
+  -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: auto;
+  width: 50%;
+  height: 100%;
   max-width: none;
-  background-image: url(../img/island.png);
+  background-image: url("../img/island.png");
   background-size: cover;
-  overflow: hidden;
+  background-position: center;
+}
+
+.life {
+  font-size: 1000%;
+  text-align: center;
+  color: white;
 }

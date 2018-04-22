@@ -4,6 +4,11 @@ body, html {
 }
 
 .col {
+  w-webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
   background-image: url(../img/island.png);
   background-size: cover;
   overflow: hidden;

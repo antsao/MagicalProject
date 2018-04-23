@@ -37,7 +37,7 @@ body, html {
   position: center;
 }
 
-textarea {
+#player1Amount {
   resize: none;
   position: center;
 }

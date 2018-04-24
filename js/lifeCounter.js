@@ -1,4 +1,5 @@
 var playerCount;
+var defaultLifeTotal;
 
 function addLife(playerAmount, playerLifeTotal) {
   document.getElementById(playerLifeTotal).innerHTML =
@@ -10,6 +11,10 @@ function minusLife(playerAmount, playerLifeTotal) {
   document.getElementById(playerLifeTotal).innerHTML =
     parseInt(document.getElementById(playerLifeTotal).innerHTML) -
     parseInt(document.getElementById(playerAmount).value);
+}
+
+function resetLife(playerLifeTotal) {
+  document.getElementById(playerLifeTotal).innerHTML = defaultLifeTotal;
 }
 
 function addPlayer() {
@@ -72,6 +77,7 @@ function main() {
   var plainsUrl = "./img/plains.png";
 
   playerCount = 2;
+  defaultLifeTotal = 20;
 
   $("#player1").css("background-image", "url(" + islandImageUrl + ")");
   $("#player1").css("background-size", "cover");

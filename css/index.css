@@ -40,4 +40,5 @@ body, html {
 #player1Amount {
   resize: none;
   position: center;
+  text-align:center;
 }

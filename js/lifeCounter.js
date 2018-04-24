@@ -21,51 +21,11 @@ function addPlayer() {
 
 }
 
-function removePlayer1() {
+function removePlayer() {
 
 }
 
-function removePlayer2() {
-
-}
-
-function removePlayer3() {
-
-}
-
-function removePlayer4() {
-
-}
-
-function removePlayer5() {
-
-}
-
-function removePlayer6() {
-
-}
-
-function changeBackgroundPlayer1() {
-
-}
-
-function changeBackgroundPlayer2() {
-
-}
-
-function changeBackgroundPlayer3() {
-
-}
-
-function changeBackgroundPlayer4() {
-
-}
-
-function changeBackgroundPlayer5() {
-
-}
-
-function changeBackgroundPlayer6() {
+function changeBackground() {
 
 }
 
@@ -73,19 +33,14 @@ function main() {
   var islandImageUrl = "./img/island.png";
   var forestImageUrl = "./img/forest.png";
   var swampImageUrl = "./img/swamp.png";
-  var mountainUrl = "./img/mountain.png";
-  var plainsUrl = "./img/plains.png";
+  var mountainImageUrl = "./img/mountain.png";
+  var plainsImageUrl = "./img/plains.png";
 
   playerCount = 2;
   defaultLifeTotal = 20;
 
-  $("#player1").css("background-image", "url(" + islandImageUrl + ")");
-  $("#player1").css("background-size", "cover");
-  $("#player1").css("background-position", "center");
-
+  $("#player1").css("background-image", "url(" + mountainImageUrl + ")");
   $("#player2").css("background-image", "url(" + forestImageUrl + ")");
-  $("#player2").css("background-size", "cover");
-  $("#player2").css("background-position", "center");
 }
 
 $(document).ready(main);

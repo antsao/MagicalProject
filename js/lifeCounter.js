@@ -41,6 +41,18 @@ function main() {
 
   $("#player1").css("background-image", "url(" + mountainImageUrl + ")");
   $("#player2").css("background-image", "url(" + forestImageUrl + ")");
+
+  $("#player3").css("background-image", "url(" + islandImageUrl + ")");
+  $("#player3").css("display", "none");
+
+  $("#player4").css("background-image", "url(" + swampImageUrl + ")");
+  $("#player4").css("display", "none");
+
+  $("#player5").css("background-image", "url(" + plainsImageUrl + ")");
+  $("#player5").css("display", "none");
+
+  $("#player6").css("background-image", "url(" + islandImageUrl + ")");
+  $("#player6").css("display", "none");
 }
 
 $(document).ready(main);

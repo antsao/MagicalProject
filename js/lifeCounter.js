@@ -1,20 +1,15 @@
-var player1Life;
-var player2Life;
-var player3Life;
-var player4Life;
-var player5Life;
-var player6Life;
-
 var playerCount;
 
-function addClickPlayer1() {
-  player1Life += parseInt($("#player1Amount").val());
-  $("#player1LifeTotal").html("" + player1Life);
+function addLife(playerAmount, playerLifeTotal) {
+  document.getElementById(playerLifeTotal).innerHTML =
+    parseInt(document.getElementById(playerLifeTotal).innerHTML) +
+    parseInt(document.getElementById(playerAmount).value);
 }
 
-function minusClickPlayer1() {
-  player1Life -= parseInt($("#player1Amount").val());
-  $("#player1LifeTotal").html("" + player1Life);
+function minusLife(playerAmount, playerLifeTotal) {
+  document.getElementById(playerLifeTotal).innerHTML =
+    parseInt(document.getElementById(playerLifeTotal).innerHTML) -
+    parseInt(document.getElementById(playerAmount).value);
 }
 
 function addPlayer() {
@@ -75,13 +70,6 @@ function main() {
   var swampImageUrl = "./img/swamp.png";
   var mountainUrl = "./img/mountain.png";
   var plainsUrl = "./img/plains.png";
-
-  player1Life = 20;
-  player2Life = 20;
-  player3Life = 20;
-  player4Life = 20;
-  player5Life = 20;
-  player6Life = 20;
 
   playerCount = 2;
 
